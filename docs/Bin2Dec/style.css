@@ -1,0 +1,48 @@
+/*Centrado Flexbox*/
+body{
+    margin: 0;
+}
+
+.div_contenedor{
+    background: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div_centrado{
+    background: whitesmoke;
+    width: 600px;       
+    height: 500px;
+    border: 1px slategray solid;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.div_centrado > label{
+    font-size: 24px;
+}
+
+.div_centrado > h1{
+    margin-top: 60px;
+    }
+
+.div_centrado > h2{
+margin-bottom: 60px;
+}
+
+input{
+    margin-bottom: 40px;
+    height: 25px;
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+    font-size: 15px;
+    height: 30px;
+}
